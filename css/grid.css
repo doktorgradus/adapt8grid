@@ -1,0 +1,83 @@
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.row {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.row:after {
+	clear: both;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+	margin: 0 0 0 2%;
+	padding: 0;
+	min-width: 110px !important;
+
+}
+
+.first, /* for old IE add this class to cell */
+.one:first-child,
+.two:first-child,
+.three:first-child,
+.four:first-child,
+.five:first-child,
+.six:first-child,
+.seven:first-child,
+.eight:first-child {
+	margin-left: 0;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+	float: left;
+	display: block;
+
+}
+
+/* Column widths */
+.one { width: 10.75%; }
+.two { width: 23.5%; }
+.three { width: 36.25%; }
+.four { width: 49%; }
+.five { width: 61.75%; }
+.six { width: 74.5%; }
+.seven { width: 87.25%; }
+.eight { width: 100%; }
+
+/* Offsets */
+.row .by-one:first-child { margin-left: 12.75%; }
+.row .by-two:first-child { margin-left: 25.5%; }
+.row .by-three:first-child { margin-left: 38.25%; }
+.row .by-four:first-child { margin-left: 51%; }
+.row .by-five:first-child { margin-left: 63.75%; }
+.row .by-six:first-child { margin-left: 76.5%; }
+.row .by-seven:first-child { margin-left: 89.25%; }
+
+.row .by-one { margin-left: 14.75%; }
+.row .by-two { margin-left: 27.5%; }
+.row .by-three { margin-left: 40.25%; }
+.row .by-four { margin-left: 53%; }
+.row .by-five { margin-left: 65.75%; }
+.row .by-six { margin-left: 78.5%; }
